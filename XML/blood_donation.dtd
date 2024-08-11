@@ -1,0 +1,12 @@
+<!ELEMENT bloodDonation (organization, donor, donation)>
+<!ELEMENT organization (name, address, contact)>
+<!ELEMENT donor (name, age, bloodType)>
+<!ELEMENT donation (date, volume)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT bloodType (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT volume (#PCDATA)>
